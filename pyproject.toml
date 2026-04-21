@@ -1,0 +1,14 @@
+[project]
+name = "anime-dl"
+version = "0.1.0"
+description = "Anime scraping and downloading toolkit"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "pytest-playwright>=0.7.2",
+    "yt-dlp>=2026.3.17",
+]
+
+[tool.uv]
+package = true
